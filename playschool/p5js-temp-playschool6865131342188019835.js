@@ -78,6 +78,9 @@ function keyTyped(){
   osc.freq(freq);
   env.ramp(osc, 0, 1.0, 0);
   
+  //if (key == ' ' ){
+  //saveCanvas(letter, 'jpg');//letter variant allows jpg to take the name of the key pressed
+  //}
   letter=key;
   frameCount=0;
 }
